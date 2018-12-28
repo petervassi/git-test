@@ -9,8 +9,6 @@ var m5 = 5;
 while (m5 < 1000) {
     m5 = m5 + 5;
 }
-var m = m3 + m5;
-alert (m);
 
 var m15 = 15;
 while (m15 < 1000) {
