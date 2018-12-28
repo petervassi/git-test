@@ -1,19 +1,30 @@
-var m3 = 3;
+var m3 = 0; var m5 = 0; var m15 = 0;
 var m = 0;
-while (m3 < 1000) {
+while (m3 < 999) {
     m3 = m3 + 3;
-    m += 3;
+    m = m + m3;
+console.log ('xxxp', m3, m);
+
 }
+console.log ('help', m, m3);
+// alert (m3);
 
 
-var m5 = 5;
-while (m5 < 1000) {
+
+do {
     m5 = m5 + 5;
-}
+    m = m + m5;
+} while (m5 < 995);
+   
+// alert (m);
+console.log ('help five', m, m5);
 
-var m15 = 15;
-while (m15 < 1000) {
+do {
     m15 = m15 + 15;
-}
-m = m3 + m5 - m15;
-alert (m);
+    m = m - m15;
+} while (m15 < 990);
+
+// m = m3 + m5 - m15;
+// alert (m);
+
+console.log ('final', m, m15);
