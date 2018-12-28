@@ -1,15 +1,14 @@
 var m3 = 0; var m5 = 0; var m15 = 0;
 var m = 0;
-while (m3 < 999) {
+
+do {
     m3 = m3 + 3;
     m = m + m3;
 console.log ('xxxp', m3, m);
 
-}
+} while (m3 < 999);
 console.log ('help', m, m3);
 // alert (m3);
-
-
 
 do {
     m5 = m5 + 5;
